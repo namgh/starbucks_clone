@@ -1,0 +1,95 @@
+#contents {
+  background-color: #f6f5f0;
+}
+
+.contents-head {
+  background-color: white;
+  margin: 0px;
+  padding: 0px 14px 0 14px;
+}
+
+.contents-head img {
+  width: 20px;
+  height: auto;
+  opacity: 0.5;
+  padding: 20px 20px;
+  margin: 10px 0px 10px 340px;
+}
+
+.contents-head h2 {
+  margin: 0px;
+}
+
+.contents-head .contents-msg {
+  margin: 0px 0px 1rem 5px;
+  border: thin;
+}
+
+.contents-head .contents-msg .msg-title {
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.contents-head .contents-msg a:link {
+  color: #0a7d2a;
+}
+
+.contents-head .contents-msg a:visited {
+  color: #0a7d2a;
+}
+
+hr .contents-line {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: rgb(180, 180, 180);
+}
+
+#category-items .contents-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#category-items .contents-container .category {
+  width: 110px;
+  height: 140px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#category-items .contents-container .category-button {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  background-color: transparent;
+}
+
+#category-items .contents-container .category .category-name p {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 5px 0px;
+  text-align: center;
+  font-size: 12px;
+  color: black;
+}
+
+section #category-items p {
+  margin: 0px 15px;
+}
+
+#category-items a {
+  font-size: 1rem;
+}
+
+#category-items .get-all-items {
+  text-align: right;
+  opacity: 0.7;
+  width: fit-content;
+}
+
+#category-items .get-all-items button {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
+}

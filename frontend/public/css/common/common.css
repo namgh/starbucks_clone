@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 0 14px;
+}
+
+h1 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hide {
+  display: none !important;
+}
+
+.first-section {
+  margin-top: 88px !important;
+}
+
+.first-section-sub-one {
+  margin-top: 138px !important;
+}
+
+.back-button {
+  width: 20px;
+  height: auto;
+  padding: 10px 7px;
+  opacity: 0.5;
+}
+
+#starbucks-logo {
+  width: 80px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.margin-top-zero {
+  margin-top: 0 !important;
+}
+
+.padding-top-zero {
+  padding-top: 0 !important;
+}
+
+.arrow {
+  opacity: 0.3;
+  height: 1rem;
+  width: auto;
+}
+
+.select-toggle {
+  font-size: 0.5rem;
+  font-weight: bold;
+  padding: 10px 0px;
+  border: none;
+  width: 18%;
+  opacity: 70%;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}

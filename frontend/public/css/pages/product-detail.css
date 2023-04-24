@@ -1,0 +1,149 @@
+#product-container {
+  width: 100%;
+  background-color: var(--color-gray-background);
+}
+
+#product-top {
+  margin: 50px 0px 10px 0px;
+  padding: 0px;
+}
+
+.product-info {
+  background-color: var(--color-white);
+  padding-top: 10px;
+}
+
+#product-top .product-img img {
+  max-width: 100%;
+  width: 100%;
+}
+
+#product-top .product-info .product-name {
+  margin: 0px 20px;
+}
+
+.product-name .product-label {
+  display: inline;
+}
+
+.product-name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name > p:first-child {
+  font-size: 25px;
+  max-width: 100%;
+  font-weight: 700;
+  padding: 15px 0px;
+  margin: 0px;
+  margin-right: 10px;
+  display: inline;
+}
+
+.share-icon {
+  display: inline;
+  margin-right: 20px;
+}
+
+#product-top .product-info .share-icon img {
+  width: 20px;
+  opacity: 70%;
+  margin: 10px;
+}
+
+#product-top .product-info .description {
+  font-size: 14px;
+  margin: 0px 20px;
+  color: var(--color-gray-text);
+}
+
+#product-top .product-info .price {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 15px 20px;
+}
+
+#product-top .notice {
+  padding: 10px 20px;
+}
+
+#product-detail {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-white);
+}
+
+#product-detail p {
+  padding: 0 15px 0 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#product-detail img {
+  max-width: 100%;
+}
+
+.product-recommand {
+  background-color: var(--color-white);
+  height: 300px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+
+.product-recommand p {
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.detail-info {
+  background-color: var(--color-white);
+  padding: 0px 0px 100px 0px;
+  margin: 0px;
+}
+
+.detail-info .nav-button {
+  margin: 0px;
+}
+
+.detail-info .nav-button .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-info .nav-button button {
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  width: 100%;
+  margin: 0px 0px;
+  padding: 5px 15px;
+  border: 0px;
+  background-color: transparent;
+  text-align: left;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.detail-info .nav-button img {
+  align-items: end;
+  width: 18px;
+  height: 18px;
+}
+
+.detail-info .nav-button p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.toggle-icon {
+  background-color: var(--color-gray-text);
+  width: 30px;
+  height: 4px;
+  margin: 5px auto 0 auto;
+  border-radius: 10px;
+}
+
+.submit-detail {
+  display: none;
+}

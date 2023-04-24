@@ -1,0 +1,307 @@
+#payment {
+  background-color: var(--color-gray-background);
+}
+
+#pay-title {
+  margin: 40px 0px 0px 0px;
+  padding: 30px 14px 10px 14px;
+  background-color: var(--color-white);
+}
+
+#pay-title p {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+#pay-delivery {
+  background-color: var(--color-white);
+  padding: 0px 14px;
+  margin-bottom: 0px;
+}
+
+#pay-delivery .delivery-info-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pay-delivery .delivery-info-title > p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+#pay-delivery .delivery-info-title a {
+  color: var(--color-gray-text);
+  text-decoration-line: none;
+}
+
+#pay-delivery .delivery-info-title .delivery-change {
+  width: 45px;
+  height: 23px;
+  border: 1px solid var(--color-gray-text);
+  border-radius: 30px / 30px;
+  text-align: center;
+  line-height: 23px;
+}
+
+#pay-delivery .delivery-info {
+  width: 80%;
+  word-wrap: break-word;
+}
+
+#pay-delivery .delivery-info .delivery-name {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+#pay-delivery .delivery-info .name {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+#pay-delivery .delivery-info .is-primary {
+  width: 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0px 10px;
+  background-color: rgba(167, 255, 236, 0.37);
+  color: var(--color-light-green);
+}
+
+#pay-delivery .delivery-info p {
+  margin: 8px 0px;
+  font-size: 0.9rem;
+}
+
+.pay-products {
+  margin-bottom: 0px;
+  padding: 10px 14px;
+}
+
+.pay-products .product-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  background-color: #f4f4f4;
+}
+
+.pay-products .product-details div :nth-child(2) {
+  color: var(--color-gray-text);
+  font-size: 11px;
+}
+
+.pay-products .product-details div :nth-child(3) {
+  font-weight: 700;
+}
+
+#payment details > div > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15%;
+  margin: 10px 20px 10px 0px;
+  border: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+.pay-products .product-summary img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15%;
+  margin: 10px 20px 10px 0px;
+  border: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+.pay-products .product-summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: -1;
+}
+
+#payment details > summary {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+#payment details > summary > div > p {
+  margin: 20px 0px;
+}
+
+#payment details > summary::-webkit-details-marker {
+  display: none;
+}
+
+#payment details > summary > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#payment details > summary > div > div > img {
+  width: 20px;
+  height: 20px;
+}
+
+#coupon {
+  margin-bottom: 0px;
+  padding: 0px 14px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#coupon details > summary {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+#coupon details > summary > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#coupon .detail {
+  padding: 10px 0px;
+}
+
+#coupon .coupon-detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#coupon details > div > a > div > img {
+  width: 20px;
+  height: 20px;
+  padding: 0px 10px;
+}
+
+#coupon details > div > a {
+  text-decoration-line: none;
+  color: var(--color-black);
+}
+
+#coupon details > div > a > p {
+  padding: 5px 10px;
+}
+
+#mobile-gift {
+  margin-bottom: 0px;
+  padding: 0px 14px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#mobile-gift > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mobile-gift > div > a > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#mobile-gift > div > a > div > img {
+  width: 20px;
+  height: 20px;
+  padding: 0px 0px 0px 10px;
+}
+
+#mobile-gift > div > a {
+  text-decoration-line: none;
+  color: var(--color-black);
+}
+
+#mobile-gift > div > p {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+#pay-method {
+  margin-bottom: 0px;
+  padding: 0px 10px;
+  background-color: var(--color-white);
+  border-top: 1px solid rgba(128, 128, 128, 0.381);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#pay-method > div > p {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0px;
+  margin: 0;
+}
+
+#pay-method .pay-choice :nth-child(1) {
+  padding: 10px 0px;
+}
+
+#pay-method .pay-choice :nth-child(2) {
+  padding: 10px 0px 30px 0px;
+}
+
+#pay-info {
+  margin-bottom: 0px;
+  padding: 0px 10px;
+  background-color: var(--color-white);
+  border-top: 1px solid rgba(128, 128, 128, 0.381);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#pay-info > div > p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 20px 0px 10px 0px;
+  margin: 0;
+}
+
+#pay-info .pay {
+  padding: 10px 0px;
+}
+
+#pay-info .pay-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pay-info .pay-price p {
+  margin: 5px 0px;
+  font-size: 0.9rem;
+}
+
+#pay-info .pay-price .title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#pay-info .pay-price .price {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+#pay-info .notice {
+  width: 100%;
+  padding: 10px 0px 80px 0px;
+}
+
+#pay-info .notice-box {
+  word-break: break-all;
+  font-size: 12px;
+  color: var(--color-gray-text);
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  background-color: var(--color-gray-background);
+}

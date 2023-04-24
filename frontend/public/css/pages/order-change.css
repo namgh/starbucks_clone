@@ -1,0 +1,84 @@
+#item-change-body {
+  background-color: var(--color-gray-background);
+}
+
+#item-change {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 50px 0px 0px 0px;
+  padding: 40px 30px 30px 30px;
+  background-color: var(--color-white);
+}
+
+#item-change img {
+  width: 30%;
+  border-radius: 10%;
+}
+
+#item-change div {
+  padding: 0px 20px;
+}
+
+#item-change p {
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+  font-size: 0.9rem;
+}
+
+#change-quantity {
+  background-color: var(--color-white);
+  margin: 0px;
+  padding: 10px;
+}
+
+#change-quantity p {
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+#change-quantity .quantity button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: 15px;
+}
+
+#change-quantity > div {
+  background-color: var(--color-gray-background);
+}
+
+#change-quantity .change {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#change-quantity .change p {
+  font-weight: bold;
+}
+
+#change-quantity .change .quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90px;
+}
+
+.submit-container .submit-box .change-final {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.submit-container .submit-box .change-final p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 15px;
+}
+
+.submit-container .submit-box .change-final p span {
+  font-size: 25px;
+}

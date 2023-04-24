@@ -1,0 +1,106 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Jason",
+      "email": "adffe@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "Busan",
+      "email": "a23233e@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "name": "Hi",
+      "email": "feaad123@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "recommand": [
+    {
+      "id": 1,
+      "name": "Cherry Blossom Sakura",
+      "data": [
+        {
+          "id": 1,
+          "title": "23 체리 아이코닉 글리터 텀블러 473ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_195/1676251036143rKN01_JPEG/77386819855230701_560737894.jpg?type=m510",
+          "price": 23000,
+          "isNew": true
+        },
+        {
+          "id": 2,
+          "title": "23 체리 플로런스 로맨틱 텀블러 473ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_200/1676251009069F0Yc8_JPEG/77386792779074247_671977658.jpg?type=m510",
+          "price": 19000,
+          "isNew": false
+        },
+        {
+          "id": 3,
+          "title": "23 체리블라썸 젤로 로맨틱 콜드컵 473ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_204/1676251077462CQzig_JPEG/77386861175312757_1951332417.jpg?type=m510",
+          "price": 29000,
+          "isNew": true
+        },
+        {
+          "id": 4,
+          "title": "23 체리블라썸 팝핸들 로맨틱 콜드컵 473ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_73/1676251092472ifM7p_JPEG/77386876185010259_1625652650.jpg?type=m510",
+          "price": 22000,
+          "isNew": true
+        },
+        {
+          "id": 5,
+          "title": "버라이어티로고 리유저블컵 세트 473ml(3P)",
+          "imgUrl": "https://shop-phinf.pstatic.net/20220421_11/1650529450873a6Sg2_JPEG/51665296589126083_1355640414.jpg?type=m510",
+          "price": 23000,
+          "isNew": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cherry Blossom heart",
+      "data": [
+        {
+          "id": 1,
+          "title": "23 SS 체리 밸류 로맨틱 텀블러 355ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_51/167625087491126PdE_JPEG/77386702709786067_1146096879.jpg?type=f140",
+          "price": 23000,
+          "isNew": true
+        },
+        {
+          "id": 2,
+          "title": "23 SS 체리 트로이 꼴라쥬 텀블러 473ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_151/1676250911506rREHP_JPEG/77386739308987584_401162669.jpg?type=f140",
+          "price": 23000,
+          "isNew": true
+        },
+        {
+          "id": 3,
+          "title": "23 SS 체리블라썸 엘마 로맨틱 텀블러 473ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_135/1676250900519uY6bK_JPEG/77386728323322596_1090523521.jpg?type=f140",
+          "price": 23000,
+          "isNew": true
+        },
+        {
+          "id": 4,
+          "title": "23 SS 체리블라썸 콕시클 핑크 텀블러 450ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_51/167625087491126PdE_JPEG/77386702709786067_1146096879.jpg?type=f140",
+          "price": 23000,
+          "isNew": true
+        },
+        {
+          "id": 5,
+          "title": "23 SS 체리블라썸 콕시클 핸들 텀블러 405ml",
+          "imgUrl": "https://shop-phinf.pstatic.net/20230213_173/1676250845864lbipA_JPEG/77386673670630527_350559380.jpg?type=m510",
+          "price": 23000,
+          "isNew": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+#order-status {
+  margin-top: 90px;
+  padding: 30px 10px 10px 20px;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+#order-status h2 {
+  font-weight: bolder;
+  display: inline-block;
+}
+
+#order-status h2 + p {
+  display: inline;
+  font-size: 1rem;
+  color: var(--color-gray-text);
+  opacity: 0.9;
+  float: right;
+  padding-right: 10px;
+}
+
+.order-status-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+  justify-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.status-item {
+  padding: 0;
+  margin: 0;
+}
+
+.status-count {
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
+  opacity: 0.2;
+}
+
+.status-item .arrow {
+  margin-top: 20px;
+  height: 10px;
+  opacity: 0.8;
+}
+
+.status-item p:last-child {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.management {
+  padding: 30px 10px 10px 20px;
+  background-color: var(--color-gray-background);
+}
+
+.management svg {
+  color: var(--color-gray-text);
+}
+
+.management .icon {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.management a img {
+  display: inline;
+}
+
+.menu-info {
+  display: inline-flex;
+  align-items: center;
+}
+
+.delivery-status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

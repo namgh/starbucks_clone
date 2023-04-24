@@ -1,0 +1,31 @@
+section#event-info {
+    padding: 0px;
+    margin-bottom: 10px; /* common-section 덮어쓰기 */
+}
+
+details>summary {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+section.notice {
+    border-top: 1px solid rgba(128, 128, 128, 0.499);
+    margin: 0 20px;
+}
+
+details>p {
+    font-size: 8px;
+    opacity: 0.8;
+    background-color: var(--color-gray-background);
+    padding: 10px;
+}
+
+section.notice details summary::-webkit-details-marker {
+    display: none;
+    background: url(/assets/images/icons/arrow-down-sign-to-navigate.png) center center no-repeat/cover;
+}
+
+section.notice details[open] summary::-webkit-details-marker {
+    display: none;
+    background: url(/assets/images/icons/arrow-down-sign-to-navigate.png) center center no-repeat/cover;
+}

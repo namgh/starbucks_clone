@@ -1,0 +1,30 @@
+.footerMenuSection {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  z-index: 200;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footerMenuSectionOff {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 200;
+  background-color: #fff;
+  text-align: center;
+}
+
+.toggleButton {
+  width: 40px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}

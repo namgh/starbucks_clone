@@ -1,0 +1,105 @@
+#purchase-list-date {
+    margin-top: 40px;
+}
+
+#purchase-list-date h1 {
+    font-size: 30px;
+}
+
+.purchase-list-period-setting-info {
+    font-size: 1rem;
+}
+
+.purchase-list-period-setting-info .arrow {
+    width: 0.8rem;
+    height: 0.8rem;
+    opacity: 0.5;
+    margin-top: 7px;
+}
+
+.purchase-list-period-setting-info button {
+    border: none;
+    background-color: var(--color-white);
+}
+
+#period {
+    padding-left: 35%;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+}
+
+.period-button {
+    height: 40px;
+}
+
+.period-button button {
+    border: 1px solid var(--color-gray-button);
+    background-color: var(--color-white);
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    height: 95%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.clicked{
+    background-color: var(--color-light-green) !important;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.period-date input {
+    width: 40%;
+}
+
+.period-date input[type="date"] {
+    font-size: 1rem;
+    background-color: var(--color-gray-background);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.purchase-list-option {
+    margin-top: 10px;
+}
+
+.purchase-list-option select {
+    width: 100%;
+    font-size: 0.8rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-button) ;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 2px;
+}
+
+.purchase-list-option div {
+    width: 46%;
+}
+
+.purchase-list-submit {
+    text-align: center;
+}
+
+.purchase-list-submit button {
+  border-radius: 30px;
+  width: 90%;
+  height: 35px;
+  background-color: var(--color-light-green);
+  border: none;
+  color: var(--color-white);
+  margin: 15px 0;
+  letter-spacing: -0.2px;
+}
+
+.purchase-list-product {
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+#order-complete {
+  background-color: var(--color-gray-background);
+}
+
+#order-complete h2 {
+  margin: 0px 0px 15px 0px;
+}

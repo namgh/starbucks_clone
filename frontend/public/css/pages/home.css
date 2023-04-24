@@ -1,0 +1,102 @@
+.container {
+  background-color: white;
+}
+
+section#event-banner {
+  padding: 0px;
+}
+
+.recommand section h2 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+}
+
+.recommand {
+  margin-bottom: 0;
+  padding: 0 20px 0 20px;
+}
+
+.recommand:last-child {
+  margin-bottom: 30px;
+}
+
+section .recommand-product-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: scroll;
+  gap: 20px;
+}
+
+section .recommand-product-list::-webkit-scrollbar {
+  display: none;
+}
+
+section .recommand-product-list .recommand-product-item {
+  height: 300px;
+  margin: 0px 14px 0 0;
+  padding: 0px;
+  margin-right: 30px;
+}
+
+section .recommand-product-list .recommand-product-item:first-child {
+  margin-left: 0px;
+}
+
+section .recommand-product-list .recommand-product-item:last-child {
+  margin-right: 0px;
+}
+
+section
+  .recommand-product-list
+  .recommand-product-item
+  .recommand-product-item__img {
+  width: 100%;
+  height: auto;
+}
+
+section
+  .recommand-product-list
+  .recommand-product-item
+  .recommand-product-item__img
+  img {
+  border-radius: 5px;
+}
+
+.item-price > span {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+#chunsik .chunsik-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#chunsik .chunsik-item img {
+  width: 25%;
+  height: auto;
+}
+
+#chunsik .chunsik-item .chunsik-item-info {
+  width: 70%;
+  margin-left: 5%;
+}
+
+.chunsik-item .item-title {
+  margin-top: 5px;
+}
+
+.chunsik-item .item-price {
+  margin-top: 10px;
+}
+
+.slick-dots {
+  bottom: 0.7rem !important;
+}
