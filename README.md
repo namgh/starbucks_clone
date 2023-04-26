@@ -97,7 +97,7 @@ Shinsegae Inc, Spharos GHBT팀의 스타벅스 클론 코딩 프로젝트입니�
     <td><b>퍼블리시<br/>검색, 필터링<br/>Auth(FE)<br/>공유하기<br/>(카카오 API)<br/>사이드 메뉴바</b></td>
     <td><b>퍼블리시<br/>장바구니<br/>결제하기<br/>(카카오 API)<br/>배송지</b></td>
     <td><b>SpringSecurity<br/>Auth<br/>이메일<br/>배송지<br/>스타벅스 카드<br/>결제 구현<br/>(카카오API)</b></td>
-    <td><b>SpringSecurity<br/>Auth(FE)<br/>인프라 구축<br/>장바구니</b></td>
+    <td><b>erd설계<br/>SpringSecurity<br/>Auth(FE)<br/>인프라 구축<br/>장바구니<br/>프론트 배포<br/>백엔드 배포</b></td>
     <td><b>상품 카테고리<br/>검색, 필터링<br/>DB 이중화<br/>구현 및 배포<br/>데이터 구축</b></td>
     <td><b>쿠폰<br/>장바구니<br/>결제 구현<br/>(카카오API)</b></td>
   </tr>
@@ -163,7 +163,6 @@ Shinsegae Inc, Spharos GHBT팀의 스타벅스 클론 코딩 프로젝트입니�
 ## ⭐ 시스템 구조도
 
 <img src="https://user-images.githubusercontent.com/97498405/229670264-2e462a01-ffac-4d9c-a31a-017ce0e61b24.png">
-
 
 
 ## ⚙️ 프로젝트 실행 방법
